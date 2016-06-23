@@ -1,5 +1,5 @@
-CentOS 6.X下Shandowsocks、PPTP、L2TP的一键安装脚本
-使用方法详见http://kanmenshu.blogspot.jp/2016/06/centosshandowsockspptpl2tp.html
+* CentOS 6.X下Shandowsocks、PPTP、L2TP的一键安装脚本
+* 使用方法详见http://kanmenshu.blogspot.jp/2016/06/centosshandowsockspptpl2tp.html
 
 shadowsocks.sh
 ===============
