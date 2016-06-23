@@ -3,7 +3,6 @@
 
 
 ### shadowsocks.sh
-===============
 * 修改自秋水逸冰的Shadowsocks-go一键安装脚本
 * 将默认密码改为asdf1234
 * 将默认端口改为大多数SS客户端使用的8388
@@ -11,7 +10,6 @@
 
 
 ### pptp.sh
-===============
 * 修改自linuxeye.com的CentOS 6、7下pptp vpn一键安装脚本
 * 将首选DNS设为了Google的DNS8.8.8.8，添加了备选DNS8.8.4.4，并将阿里云等国内DNS注释掉
 * 将默认用户名和密码从linuxeye修改为了vpn
@@ -19,7 +17,6 @@
 
 
 ### l2tp.sh
-===============
 * 修改自Leesec's Blog的一键安装L2TP VPN脚本
 * 将EPEL库的安装方式改为yum方式
 * 去掉了添加用户名和密码的步骤（可以用安装PPTP时创建的用户名及密码登录）
