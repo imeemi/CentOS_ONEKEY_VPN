@@ -1,39 +1,14 @@
+CentOS 6.X下Shandowsocks、PPTP、L2TP的一键安装脚本
+使用方法详见http://kanmenshu.blogspot.jp/2016/06/centosshandowsockspptpl2tp.html
+
 shadowsocks.sh
 ===============
-* Description: Auto Install Shadowsocks(Python) Server for CentOS/Redhat/Debian/Ubuntu
-* Intro: https://teddysun.com/342.html
+* 修改自秋水逸冰的Shadowsocks-go一键安装脚本
+* 将默认密码改为asdf1234
+* 将默认端口改为大多数SS客户端使用的8388
+* 选用Shadowsocks-go一键安装脚本是为了避免在某些VPS上安装Python版本时发生EZsetup错误，同时Shadowsocks-go还可配置多端口。
 
-shadowsocks-libev.sh
-===============
-* Description: Auto Install Shadowsocks(libev) Server for CentOS/Redhat
-* Intro: https://teddysun.com/357.html
-
-shadowsocks-libev-debian.sh
-===============
-* Description: Auto Install Shadowsocks(libev) Server for Debian/Ubuntu
-* Intro: https://teddysun.com/358.html
-
-shadowsocks-go.sh
-===============
-* Description: Auto Install Shadowsocks(Go) Server for CentOS/Redhat/Debian/Ubuntu
-* Intro: https://teddysun.com/392.html
-
-shadowsocks-crond.sh
-===============
-* Description: Check Shadowsocks(All version) Server is running or not, and start it if not running
-* Intro: https://shadowsocks.be/6.html
-
-shadowsocksR.sh
-===============
-* Description: Auto Install ShadowsocksR Server for CentOS/Redhat/Debian/Ubuntu
-* Intro: https://shadowsocks.be/9.html
-
-haproxy.sh
-===============
-* Description: Auto Install haproxy for Shadowsocks Server
-* Intro: https://shadowsocks.be/10.html
-
-shadowsocks-nodejs.sh (Deprecated)
+pptp.sh
 ===============
 * Description: Auto Install Shadowsocks(NodeJS) Server for CentOS/Redhat
 * Intro: https://teddysun.com/355.html
