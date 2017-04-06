@@ -1,5 +1,5 @@
 rm -f /etc/shadowsocks.json
-cat > /etc/shadowsocks/config.json<<-EOF
+cat > /etc/shadowsocks.json<<-EOF
 {
     "server":"0.0.0.0",
     "server_port":9000,
