@@ -1,4 +1,4 @@
-rm -f /etc/shadowsocks.json
+cat /dev/null > /etc/shadowsocks.json
 cat > /etc/shadowsocks.json<<-EOF
 {
     "server":"0.0.0.0",
