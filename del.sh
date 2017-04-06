@@ -1,3 +1,4 @@
+/etc/init.d/shadowsocks stop
 cat /dev/null > /etc/shadowsocks.json
 cat > /etc/shadowsocks.json<<-EOF
 {
@@ -11,5 +12,4 @@ cat > /etc/shadowsocks.json<<-EOF
     "fast_open":false
 }
 EOF
-/etc/init.d/shadowsocks stop
 /etc/init.d/shadowsocks start
